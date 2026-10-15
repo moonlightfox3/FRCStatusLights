@@ -1,0 +1,30 @@
+<!doctype html>
+<title>Status Lights | CTRE Phoenix 6: CANcoder</title>
+<link rel="stylesheet" href="./style.css">
+<script src="./script.js"></script>
+
+<i><h3><a href="./index.html"><button autofocus>Back</button></a> | CTRE Phoenix 6: CANcoder</h3></i>
+
+<div id="colLeft">
+    <b>(Top light):</b><br>
+    <br>
+
+    <div class="lightanim lightanim-1-.ctre.off_1000"></div> Off<br>
+    <div class="lightanim lightanim-1-.ctre.red_350-.ctre.off_350"></div> No CAN<br>
+    <br>
+    
+    <div class="lightanim lightanim-1-.ctre.dimred_300-.ctre.off_75"></div> No CAN since boot, magnet too far away<br>
+    <div class="lightanim lightanim-1-.ctre.dimorange_300-.ctre.off_75"></div> No CAN since boot, magnet slightly far away<br>
+    <div class="lightanim lightanim-1-.ctre.dimgreen_300-.ctre.off_75"></div> No CAN since boot, magnet in good range<br>
+    <div class="lightanim lightanim-1-.ctre.red_300-.ctre.off_75"></div> Has CAN, magnet too far away<br>
+    <div class="lightanim lightanim-1-.ctre.orange_300-.ctre.off_75"></div> Has CAN, magnet slightly far away<br>
+    <div class="lightanim lightanim-1-.ctre.green_300-.ctre.off_75"></div> Has CAN, magnet in good range<br>
+    <br>
+    
+    <div class="lightanim lightanim-1-.ctre.red_375-.ctre.orange_375"></div> Hardware fault<br>
+    <div class="lightanim lightanim-1-.ctre.green_375-.ctre.orange_375"></div> In bootloader<br>
+    <br>
+</div>
+
+<div id="colRight">
+</div>

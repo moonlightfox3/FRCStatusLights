@@ -1,0 +1,71 @@
+<!doctype html>
+<title>Status Lights | Other: roboRIO</title>
+<link rel="stylesheet" href="./style.css">
+<script src="./script.js"></script>
+
+<i><h3><a href="./index.html"><button autofocus>Back</button></a> | Other: roboRIO</h3></i>
+
+<div id="colLeft">
+    <b>"POWER":</b><br>
+    <br>
+
+    <div class="lightanim lightanim-1-.other.off_1000"></div> Off<br>
+    <div class="lightanim lightanim-1-.other.red_1000"></div> Power fault (Short circuit)<br>
+    <br>
+    
+    <div class="lightanim lightanim-1-.other.orange_1000"></div> Browning out<br>
+    <div class="lightanim lightanim-1-.other.green_1000"></div> On<br>
+    <br>
+
+    <b>"STATUS":</b><br>
+    <br>
+
+    <div class="lightanim lightanim-1-.other.off_1000"></div> Off, or ready<br>
+    <div class="lightanim lightanim-1-.other.orange_1000"></div> Booting, or fatal error<br>
+    <br>
+
+    <div class="lightanim lightanim-1-.other.orange_200-.other.off_200"></div> Fatal error<br>
+    <div class="lightanim lightanim-1-.other.orange_200-.other.off_200-.other.orange_200-.other.off_1400"></div> Software error (Re-image)<br>
+    <div class="lightanim lightanim-1-.other.orange_200-.other.off_200-.other.orange_200-.other.off_200-.other.orange_200-.other.off_1000"></div> Safe mode<br>
+    <div class="lightanim lightanim-1-.other.orange_200-.other.off_200-.other.orange_200-.other.off_200-.other.orange_200-.other.off_200-.other.orange_200-.other.off_600"></div> Software crashed twice without rebooting<br>
+    <br>
+    
+    <b>"RADIO":</b><br>
+    <br>
+    
+    <br>
+</div>
+
+<div id="colRight">
+    <b>"COMM":</b><br>
+    <br>
+
+    <div class="lightanim lightanim-1-.other.off_1000"></div> Off, or disconnected<br>
+    <div class="lightanim lightanim-1-.other.red_200-.other.off_200"></div> Emergency stopped<br>
+    <br>
+
+    <div class="lightanim lightanim-1-.other.red_1000"></div> Connected, no code running<br>
+    <div class="lightanim lightanim-1-.other.green_1000"></div> Connected, has code running<br>
+    <br>
+    
+    <b>"MODE":</b><br>
+    <br>
+
+    <div class="lightanim lightanim-1-.other.off_1000"></div> Off, or disabled, or browning out<br>
+    <br>
+
+    <div class="lightanim lightanim-1-.other.orange_1000"></div> Enabled, in auto mode<br>
+    <div class="lightanim lightanim-1-.other.green_1000"></div> Enabled, in teleop mode<br>
+    <div class="lightanim lightanim-1-.other.red_1000"></div> Enabled, in test mode<br>
+    <br>
+
+    <b>"RSL":</b><br>
+    <br>
+
+    <div class="lightanim lightanim-1-.other.off_1000"></div> Off<br>
+    <br>
+
+    <div class="lightanim lightanim-1-.other.orange_1000"></div> Disabled<br>
+    <div class="lightanim lightanim-1-.other.orange_200-.other.off_200"></div> Enabled<br>
+    <br>
+</div>

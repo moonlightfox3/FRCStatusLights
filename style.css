@@ -1,0 +1,54 @@
+* {
+    outline: none;
+    user-select: none;
+}
+html {
+    height: 100%;
+}
+body, ::selection {
+    background-color: black;
+    color: lightgray;
+}
+
+a {
+    cursor: default;
+}
+button {
+    background-color: lightgray;
+    border-radius: 5px;
+}
+button:not([disabled]) {
+    cursor: pointer;
+}
+
+.lightanim {
+    background-color: black;
+    border: 1px solid lightgray;
+
+    display: inline-block;
+    border-radius: 16px;
+    padding: 2px;
+    margin: 1px;
+}
+.lightanim-part {
+    background-color: black;
+    border: 1px solid gray;
+
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    margin-bottom: -3.5px;
+    --margin-right: 2px;
+}
+
+div#colLeft {
+    position: absolute;
+    left: 15px;
+    top: 65px;
+}
+div#colRight {
+    position: absolute;
+    left: 50%;
+    top: 65px;
+}

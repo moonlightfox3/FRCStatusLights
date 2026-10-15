@@ -1,0 +1,57 @@
+<!doctype html>
+<title>Status Lights | CTRE Phoenix 6: CANivore</title>
+<link rel="stylesheet" href="./style.css">
+<script src="./script.js"></script>
+
+<i><h3><a href="./index.html"><button autofocus>Back</button></a> | CTRE Phoenix 6: CANivore</h3></i>
+
+<div id="colLeft">
+    <b>"CAN":</b><br>
+    <br>
+
+    <div class="lightanim lightanim-1-.ctre.off_1000"></div> Off<br>
+    <div class="lightanim lightanim-1-.ctre.red_1000"></div> No CAN output, voltage input too low<br>
+    <br>
+
+    <div class="lightanim lightanim-1-.ctre.red_400-.ctre.off_300-.ctre.red_400-.ctre.off_300-.ctre.off_700"></div> No CAN output, CAN termination off<br>
+    <div class="lightanim lightanim-1-.ctre.red_300-.ctre.off_75"></div> No CAN output, CAN termination on<br>
+    <div class="lightanim lightanim-1-.ctre.orange_400-.ctre.off_300-.ctre.orange_400-.ctre.off_300-.ctre.off_700"></div> Has legacy CAN output, CAN termination off<br>
+    <div class="lightanim lightanim-1-.ctre.orange_300-.ctre.off_75"></div> Has legacy CAN output, CAN termination on<br>
+    <div class="lightanim lightanim-1-.ctre.green_400-.ctre.off_300-.ctre.green_400-.ctre.off_300-.ctre.off_700"></div> Has CAN output, CAN termination off<br>
+    <div class="lightanim lightanim-1-.ctre.green_300-.ctre.off_75"></div> Has CAN output, CAN termination on<br>
+    <br>
+
+    <b>"BT":</b><br>
+    <br>
+
+    <div class="lightanim lightanim-1-.ctre.off_1000"></div> Bluetooth off<br>
+    <div class="lightanim lightanim-1-.ctre.green_400-.ctre.off_400"></div> Bluetooth on<br>
+    <br>
+</div>
+
+<div id="colRight">
+    <b>"WIFI":</b><br>
+    <br>
+
+    <div class="lightanim lightanim-1-.ctre.off_1000"></div> Wi-Fi off<br>
+    <div class="lightanim lightanim-1-.ctre.green_400-.ctre.off_400"></div> Wi-Fi on<br>
+    <br>
+    
+    <b>"STAT":</b><br>
+    <br>
+
+    <div class="lightanim lightanim-1-.ctre.off_1000"></div> Off<br>
+    <br>
+
+    <div class="lightanim lightanim-1-.ctre.red_400-.ctre.off_300-.ctre.red_400-.ctre.off_300-.ctre.off_700"></div> No USB connection, no USB communication<br>
+    <div class="lightanim lightanim-1-.ctre.red_300-.ctre.off_75"></div> Has USB connection, no USB communication<br>
+    <div class="lightanim lightanim-1-.ctre.orange_400-.ctre.off_300-.ctre.orange_400-.ctre.off_300-.ctre.off_700"></div> Has USB communication, no power input, no CAN output<br>
+    <div class="lightanim lightanim-1-.ctre.orange_300-.ctre.off_75"></div> Has USB communication, has power input, no CAN output<br>
+    <div class="lightanim lightanim-1-.ctre.green_400-.ctre.off_300-.ctre.green_400-.ctre.off_300-.ctre.off_700"></div> Has USB communication, no power input, has CAN output<br>
+    <div class="lightanim lightanim-1-.ctre.green_300-.ctre.off_75"></div> Has USB communication, has power input, has CAN output<br>
+    <br>
+
+    <div class="lightanim lightanim-1-.ctre.red_375-.ctre.orange_375"></div> Hardware fault<br>
+    <div class="lightanim lightanim-1-.ctre.green_375-.ctre.orange_375"></div> In bootloader<br>
+    <br>
+</div>

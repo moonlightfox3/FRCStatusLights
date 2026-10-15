@@ -1,0 +1,45 @@
+<!doctype html>
+<title>Status Lights | REV: SPARK MAX</title>
+<link rel="stylesheet" href="./style.css">
+<script src="./script.js"></script>
+
+<i><h3><a href="./index.html"><button autofocus>Back</button></a> | REV: SPARK MAX</h3></i>
+
+<div id="colLeft">
+    <b>(Top light):</b><br>
+    <br>
+
+    <div class="lightanim lightanim-1-.rev.off_1000"></div> Off, or recovery mode<br>
+    <br>
+
+    <div class="lightanim lightanim-1-.rev.blue_500-.rev.off_500"></div> Brushed, brake, no CAN<br>
+    <div class="lightanim lightanim-1-.rev.blue_1000"></div> Brushed, brake, has CAN<br>
+    <div class="lightanim lightanim-1-.rev.yellow_500-.rev.off_500"></div> Brushed, coast, no CAN<br>
+    <div class="lightanim lightanim-1-.rev.yellow_1000"></div> Brushed, coast, has CAN<br>
+    <div class="lightanim lightanim-1-.rev.cyan_500-.rev.off_500"></div> Brushless, brake, no CAN<br>
+    <div class="lightanim lightanim-1-.rev.cyan_1000"></div> Brushless, brake, has CAN<br>
+    <div class="lightanim lightanim-1-.rev.magenta_500-.rev.off_500"></div> Brushless, coast, no CAN<br>
+    <div class="lightanim lightanim-1-.rev.magenta_1000"></div> Brushless, coast, has CAN<br>
+    <br>
+    
+    <div class="lightanim lightanim-1-.rev.white_500-.rev.yellow_500"></div> In bootloader<br>
+    <div class="lightanim lightanim-1-.rev.green_500-.rev.magenta_500"></div> In bootloader<br>
+    <div class="lightanim lightanim-1-.rev.white_500-.rev.blue_500"></div> In bootloader, retrying update<br>
+    <br>
+</div>
+
+<div id="colRight">
+    <div class="lightanim lightanim-1-.rev.green_500-.rev.off_500"></div> Moving forward<br>
+    <div class="lightanim lightanim-1-.rev.green_1000"></div> Moving forward, max speed<br>
+    <div class="lightanim lightanim-1-.rev.red_500-.rev.off_500"></div> Moving backward<br>
+    <div class="lightanim lightanim-1-.rev.red_1000"></div> Moving backward, max speed<br>
+    <div class="lightanim lightanim-1-.rev.green_500-.rev.white_500"></div> Forward limit reached<br>
+    <div class="lightanim lightanim-1-.rev.red_500-.rev.white_500"></div> Backward limit reached<br>
+    <br>
+
+    <div class="lightanim lightanim-1-.rev.orange_500-.rev.blue_500"></div> No 12V power<br>
+    <div class="lightanim lightanim-1-.rev.orange_500-.rev.yellow_500"></div> No CAN, had CAN since boot<br>
+    <div class="lightanim lightanim-1-.rev.orange_500-.rev.cyan_500"></div> Hardware fault<br>
+    <div class="lightanim lightanim-1-.rev.orange_500-.rev.magenta_500"></div> Sensor fault<br>
+    <br>
+</div>

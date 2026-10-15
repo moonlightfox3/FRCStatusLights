@@ -1,0 +1,29 @@
+<!doctype html>
+<title>Status Lights | CTRE Phoenix 6: CANdle</title>
+<link rel="stylesheet" href="./style.css">
+<script src="./script.js"></script>
+
+<i><h3><a href="./index.html"><button autofocus>Back</button></a> | CTRE Phoenix 6: CANdle</h3></i>
+
+<div id="colLeft">
+    <b>(Center light):</b><br>
+    <br>
+
+    <div class="lightanim lightanim-1-.ctre.off_1000"></div> Off, or light disabled with config<br>
+    <div class="lightanim lightanim-1-.ctre.red_350-.ctre.off_350"></div> No CAN<br>
+    <br>
+
+    <div class="lightanim lightanim-1-.ctre.orange_350-.ctre.off_350"></div> Has CAN, not running lights<br>
+    <div class="lightanim lightanim-1-.ctre.green_350-.ctre.off_350"></div> Has CAN, is running lights<br>
+    <br>
+    
+    <div class="lightanim lightanim-1-.ctre.red_250-.ctre.off_50"></div> Overvoltage fault (5V output wire)<br>
+    <div class="lightanim lightanim-1-.ctre.red_100-.ctre.off_200"></div> Short circuit fault or software fuse fault<br>
+    <div class="lightanim lightanim-1-.ctre.orange_100-.ctre.off_200"></div> Thermal fault<br>
+    <div class="lightanim lightanim-1-.ctre.red_350-.ctre.orange_350"></div> Hardware fault<br>
+    <div class="lightanim lightanim-1-.ctre.green_350-.ctre.orange_350"></div> In bootloader<br>
+    <br>
+</div>
+
+<div id="colRight">
+</div>

@@ -1,0 +1,35 @@
+<!doctype html>
+<title>Status Lights | REV: PDH</title>
+<link rel="stylesheet" href="./style.css">
+<script src="./script.js"></script>
+
+<i><h3><a href="./index.html"><button autofocus>Back</button></a> | REV: PDH</h3></i>
+
+<div id="colLeft">
+    <b>(Top light):</b><br>
+    <br>
+
+    <div class="lightanim lightanim-1-.rev.off_1000"></div> Off, or recovery mode<br>
+    <div class="lightanim lightanim-1-.rev.blue_1000"></div> No CAN since boot<br>
+    <div class="lightanim lightanim-1-.rev.magenta_500-.rev.off_500"></div> Has CAN, no CAN connection to robot controller<br>
+    <br> 
+    <div class="lightanim lightanim-1-.rev.green_1000"></div> Has CAN, has CAN connection to robot controller<br>
+    <div class="lightanim lightanim-1-.rev.cyan_1000"></div> Connected to REV Hardware Client<br>
+    <br>
+
+    <div class="lightanim lightanim-1-.rev.orange_500-.rev.blue_500"></div> Low battery<br>
+    <div class="lightanim lightanim-1-.rev.orange_500-.rev.yellow_500"></div> No CAN, had CAN since boot<br>
+    <div class="lightanim lightanim-1-.rev.orange_500-.rev.cyan_500"></div> Hardware fault<br>
+    <div class="lightanim lightanim-1-.rev.orange_500-.rev.magenta_500"></div> Overcurrent fault<br>
+    <br>
+</div>
+
+<div id="colRight">
+    <b>(Main channel lights, switched channel light):</b><br>
+    <br>
+
+    <div class="lightanim lightanim-1-.rev.off_1000"></div> Off, or has channel power output<br>
+    <div class="lightanim lightanim-1-.rev.red_1000"></div> Active fault, no channel power output<br>
+    <div class="lightanim lightanim-1-.rev.red_500-.rev.off_500"></div> Sticky fault, has channel power output<br>
+    <br>
+</div>
